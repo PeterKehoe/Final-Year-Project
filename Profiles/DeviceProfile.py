@@ -6,7 +6,7 @@ Created on Wed Feb 08 21:01:51 2017
 """
 
 #Class for switches in the SDN
-class device():
+class device:
     
     def __init__(self,name,ofv,rs):
         self.ID = name
