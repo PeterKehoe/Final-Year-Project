@@ -26,6 +26,5 @@ def writeProfile(dev,Path):
         pro.write(json.dumps(dev))
     except IOError:
         print "Could not open file",dev["File Name"],": Path or file name incorrect"
-    finally:
-        pro.close()
+
     
